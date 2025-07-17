@@ -60,25 +60,11 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
-    // retrofit
-    implementation(libs.retrofit2)
-    implementation(libs.retrofit2.kotlinx.serialization.converter)
-
-    // coil
-    implementation(libs.coil.compose)
-
-    // room
-    implementation(libs.androidx.room.runtime)
-    annotationProcessor(libs.androidx.room.compiler)
-    implementation(libs.androidx.room.ktx)
-    ksp(libs.androidx.room.compiler)
-
     // hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
 
     // navigation
-    implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.hilt.navigation.compose)
 
