@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InstalledApps</string>
+
+    <string name="installed_apps">Установленные приложения</string>
+    <string name="app_info">Информация о приложении</string>
+    <string name="app_icon">Иконка приложения</string>
+    <string name="name">Название</string>
+    <string name="version">Версия</string>
+    <string name="app_package">Пакет</string>
+    <string name="checksum">Контрольная сумма</string>
+    <string name="open">Открыть</string>
+    <string name="cant_open_app">Приложение нельзя открыть</string>
+</resources>
